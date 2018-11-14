@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyCommonLibrary</string>
+
+
+    <string name="network_http_error">请求数据发生错误</string>
+    <string name="connect_http_error">网络连接错误</string>
+    <string name="connect_timeout_http_error">网络连接超时</string>
+    <string name="json_http_error">数据解析错误</string>
+    <string name="other_http_error">未知错误</string>
+
+
+
+</resources>

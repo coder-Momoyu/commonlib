@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    style="@style/MyToolbar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/safe_common_toolbar"
+    android:contentInsetStart="0dp"
+    android:minHeight="?attr/actionBarSize"
+    android:paddingTop="@dimen/dp_25">
+
+    <RelativeLayout
+        android:id="@+id/toolbar_rl_high"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44"
+        >
+
+        <TextView
+            android:id="@+id/toolbar_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/sp_17"
+            />
+
+        <ImageView
+            android:id="@+id/toolbar_iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:paddingLeft="@dimen/dp_13"
+            android:paddingRight="@dimen/dp_10"
+            android:src="@drawable/safe_common_back"
+            />
+
+        <ImageView
+            android:id="@+id/toolbar_iv_function"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/safe_toolbar_classify"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_12"/>
+
+        <TextView
+            android:id="@+id/toolbar_tv_viceFunction"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/sp_11"
+            android:layout_toLeftOf="@+id/toolbar_iv_function"
+            android:layout_marginRight="@dimen/dp_12"
+            android:paddingTop="@dimen/dp_7"
+            android:paddingBottom="@dimen/dp_7"
+            android:drawableTop="@drawable/safe_toolbar_result"
+            android:drawablePadding="@dimen/dp_2"
+            android:text="10/100"/>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
